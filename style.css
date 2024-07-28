@@ -134,6 +134,7 @@ body{
     border-radius: 40px;
     border: 1px thin black;
     transition: box-shadow 0.2s;
+    cursor: pointer;
 }
 
 .card:hover{
@@ -143,4 +144,18 @@ body{
 
 .card-body{
     padding: 20px;
+}
+
+.btn-card{
+    background-color: rgb(40, 114, 40);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.btn-card:hover{
+    background-color: rgb(48, 171, 48);
+    color: white;
+
 }
