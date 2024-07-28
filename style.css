@@ -63,7 +63,7 @@ body{
 .image-div{
     background-image: url(./Components/01.jpg);
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     padding-top: 20px;
     background-color: brown;
     background-size: cover;
@@ -93,7 +93,7 @@ body{
 }
 
 .menus{
-    height: 200vh;
+    height: 20vh;
     background-color: transparent;
 }
 
@@ -102,6 +102,7 @@ body{
     left: 0;
     position: absolute;
     width: 100%;
+    margin-bottom: -1px;
 }
 
 @media(max-width: 800px){
@@ -118,4 +119,28 @@ body{
     .image-div{
         height: 75vh;
     }
+}
+
+.card-div{
+    height: 200vh;
+}
+
+.card-img-top{
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.card{
+    border-radius: 40px;
+    border: 1px thin black;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.card-body{
+    padding: 20px;
 }
